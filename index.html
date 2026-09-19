@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Top laptopët e vitit 2026: gaming, studentë, premium, creator dhe buxhet.">
+  <title>Top Laptops 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <div class="logo">Laptop<span>2026</span></div>
+      <a href="#laptops">Laptopët</a>
+      <a href="#categories">Kategoritë</a>
+      <a href="#tips">Këshilla</a>
+    </nav>
+    <div class="hero-content">
+      <p class="eyebrow">GUIDA 2026</p>
+      <h1>Top Laptopët e Vitit 2026</h1>
+      <p>Zgjidh laptopin sipas përdorimit: gaming, shkollë, punë, creator ose buxhet.</p>
+      <a class="button" href="#laptops">Shiko laptopët</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="categories" class="section">
+      <h2>Zgjidh sipas kategorisë</h2>
+      <div class="chips">
+        <button data-filter="all">Të gjithë</button>
+        <button data-filter="gaming">Gaming</button>
+        <button data-filter="student">Studentë</button>
+        <button data-filter="premium">Premium</button>
+        <button data-filter="creator">Creator</button>
+        <button data-filter="budget">Buxhet</button>
+      </div>
+    </section>
+
+    <section id="laptops" class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">ZGJEDHJE TË NJOHURA NË 2026</p>
+          <h2>Laptopët</h2>
+        </div>
+        <input id="search" type="search" placeholder="Kërko laptop..." aria-label="Kërko laptop">
+      </div>
+
+      <div class="grid" id="grid">
+        <article class="card" data-category="premium">
+          <div class="badge">Premium</div>
+          <div class="device apple">M5</div>
+          <h3>MacBook Air M5</h3>
+          <p>Portabilitet, bateri dhe performancë për përdorim të përditshëm.</p>
+          <ul><li>macOS</li><li>13.6″</li><li>Apple M5</li></ul>
+        </article>
+
+        <article class="card" data-category="budget student">
+          <div class="badge">Buxhet</div>
+          <div class="device silver">XPS</div>
+          <h3>Dell XPS 13 (2026)</h3>
+          <p>Një Windows kompakt për shkollë, punë dhe përdorim të përditshëm.</p>
+          <ul><li>Windows</li><li>13″</li><li>Intel Core 5</li></ul>
+        </article>
+
+        <article class="card" data-category="gaming">
+          <div class="badge">Gaming</div>
+          <div class="device dark">RTX</div>
+          <h3>Razer Blade 16</h3>
+          <p>Fokus te performanca e lartë për gaming dhe punë kreative.</p>
+          <ul><li>Windows</li><li>16″</li><li>RTX 5090</li></ul>
+        </article>
+
+        <article class="card" data-category="gaming">
+          <div class="badge">Gaming</div>
+          <div class="device dark">LEGION</div>
+          <h3>Lenovo Legion Pro 7i Gen 10</h3>
+          <p>Hardware i fuqishëm dhe i orientuar drejt performancës gaming.</p>
+          <ul><li>Windows</li><li>16″</li><li>RTX 50-series</li></ul>
+        </article>
+
+        <article class="card" data-category="gaming">
+          <div class="badge">Kompakt</div>
+          <div class="device dark">G14</div>
+          <h3>ASUS ROG Zephyrus G14</h3>
+          <p>Gaming në një format më portativ, me fokus te fuqia dhe madhësia.</p>
+          <ul><li>Windows</li><li>14″</li><li>RTX 50-series</li></ul>
+        </article>
+
+        <article class="card" data-category="creator premium">
+          <div class="badge">Creator</div>
+          <div class="device creator">PRO</div>
+          <h3>MacBook Pro 16 M5 Pro</h3>
+          <p>Për video, programim dhe punë profesionale që kërkon më shumë fuqi.</p>
+          <ul><li>macOS</li><li>16″</li><li>M5 Pro</li></ul>
+        </article>
+
+        <article class="card" data-category="creator">
+          <div class="badge">Creator</div>
+          <div class="device creator">PX13</div>
+          <h3>ASUS ProArt PX13</h3>
+          <p>2-in-1 i orientuar drejt krijuesve dhe punëve të rënda.</p>
+          <ul><li>Windows</li><li>13″</li><li>Ryzen AI</li></ul>
+        </article>
+
+        <article class="card" data-category="premium creator">
+          <div class="badge">2-in-1</div>
+          <div class="device creator">DUO</div>
+          <h3>ASUS Zenbook Duo</h3>
+          <p>Dy ekrane OLED për multitasking dhe produktivitet.</p>
+          <ul><li>Windows</li><li>Dual OLED</li><li>2-in-1</li></ul>
+        </article>
+
+        <article class="card" data-category="student">
+          <div class="badge">Studentë</div>
+          <div class="device silver">F13</div>
+          <h3>Framework Laptop 13</h3>
+          <p>Fokus te riparueshmëria dhe përmirësimi i komponentëve.</p>
+          <ul><li>Windows/Linux</li><li>13″</li><li>Modular</li></ul>
+        </article>
+      </div>
+      <p id="empty" class="empty">Nuk u gjet asnjë laptop.</p>
+    </section>
+
+    <section id="tips" class="section tips">
+      <h2>Si të zgjedhësh?</h2>
+      <div class="tip-grid">
+        <div><strong>🎮 Gaming</strong><p>Shiko GPU-në, fuqinë e saj, ftohjen, ekranin dhe RAM-in.</p></div>
+        <div><strong>🎓 Shkollë</strong><p>Prioritet janë pesha, bateria, tastiera dhe një SSD i shpejtë.</p></div>
+        <div><strong>🎬 Creator</strong><p>Kontrollo CPU/GPU, RAM-in, ekranin dhe performancën nën ngarkesë.</p></div>
+        <div><strong>💰 Buxhet</strong><p>Mos paguaj për komponentë që nuk do t'i përdorësh.</p></div>
+      </div>
+    </section>
+
+    <section class="source">
+      <p><strong>Shënim:</strong> Lista është një shembull editorial për vitin 2026 dhe jo një renditje absolute. Specifikat dhe çmimet ndryshojnë sipas konfigurimit dhe tregut.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Laptop2026 · Udhëzues teknologjie</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
